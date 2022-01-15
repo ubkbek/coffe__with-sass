@@ -1,0 +1,33 @@
+.header{
+    margin-bottom: 44px;
+    margin-top: 20px;
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo-img{
+        width: 236px;
+        height: 26px;
+        vertical-align: middle;
+    }
+
+    &__nav-link{
+        text-decoration: none;
+        font-family: Barlow;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        margin-left: 33px;
+
+        &:hover{
+            color: $dark_grey_blue;
+        }
+
+    }
+
+}

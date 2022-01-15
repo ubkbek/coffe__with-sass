@@ -1,0 +1,43 @@
+// hero
+.hero{
+    margin-bottom: 136px;
+
+    &__container{
+        display: flex;
+        justify-content: start;
+        background-image: url(./../../images/hero-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+        padding-top: 117px;
+        padding-left: 85px;
+        padding-bottom: 116px;
+
+    }
+
+    &__box{
+        max-width: 493px;
+        width: 100%;
+        color: $light_cream;
+    }
+
+    &__heading{
+        font-family: 'Fraunces', Arial, sans-serif;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        margin-bottom: 32px;
+    }
+
+    &__text{
+        max-width: 445px;
+        width: 100%;
+        font-family: Barlow, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-bottom: 56px;
+    }
+}
