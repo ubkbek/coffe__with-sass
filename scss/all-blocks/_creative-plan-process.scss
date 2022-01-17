@@ -1,0 +1,25 @@
+.process-creative-plan {
+    margin-bottom: 168px;
+
+    &__container {
+        background-image: url(./../../images/creative-plan-process.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        margin: 0;
+        padding-left: 85px;
+        padding-top: 113px;
+        padding-bottom: 100px;
+        border-radius: 10px;
+        color: #FEFCF7;
+    }
+
+    &__inner-heading{
+        color: #FEFCF7;
+    }
+
+    &__text{
+        color: #FEFCF7;
+    }
+}
