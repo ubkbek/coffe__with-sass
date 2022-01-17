@@ -1,0 +1,39 @@
+.commitment {
+    margin-bottom: 244px;
+
+    &__container {
+        padding-left: 80px;
+        padding-right: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__img {
+        width: 445px;
+        height: 520px;
+    }
+
+    &__right-side {
+        max-width: 540px;
+        width: 100%;
+        color: #333D4B;
+    }
+
+    &__heading {
+        margin-bottom: 32px;
+        font-family: 'Fraunces', Arial, sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    &__text {
+        font-family: Barlow, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}

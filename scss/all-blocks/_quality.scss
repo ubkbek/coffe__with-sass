@@ -1,0 +1,45 @@
+.quality {
+    margin-bottom: 168px;
+
+    &__container {
+        background-image: url(./../images/quality-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-left: 85px;
+        padding-right: 85px;
+        padding-top: 88px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    &__left-side {
+        max-width: 540px;
+        width: 100%;
+        color: #FEFCF7;
+    }
+
+    &__heading {
+        font-family: 'Fraunces', Arial, sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        font-family: 'Barlow', Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px; mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    &__img {
+        margin-top: -170px;
+        margin-bottom: 88px;
+        border-radius: 10px;
+    }
+}
