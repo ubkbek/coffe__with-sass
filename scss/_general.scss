@@ -45,15 +45,28 @@ img{
 }
 
 .link {
+    min-width: 200px;
+    max-width: 600px;
+    text-align: center;
     text-decoration: none;
     font-family: Fraunces, Arial, sans-serif;
     font-weight: 900;
     font-size: 18px;
     line-height: 25px;
-    text-align: center;
-    color: #FEFCF7;
-    background: #0E8784;
+    color: $light_cream;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: $dark_cyan;
     border-radius: 6px;
-    padding: 15px 31px;
+    padding: 15px 20px;
     display: inline-block;
+
+    &:hover{
+        background: #66D2CF;
+    }
+
+    &:active{
+        background: $dark_cyan;
+    }
 }
