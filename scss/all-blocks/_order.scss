@@ -112,7 +112,7 @@
     &__box {
         width: 100%;
         padding: 27px 64px;
-        background-image: url("./../../images/bggg.png");
+        background-image: url("./../images/bggg.png");
         background-position: center;
         background-repeat: no-repeat;
         block-size: cover;
@@ -146,5 +146,5 @@
 }
 
     .green {
-        color: rgb(35, 65, 35);
+        color: $dark_cyan;
 }
