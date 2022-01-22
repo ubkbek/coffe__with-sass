@@ -27,11 +27,64 @@
         &:hover{
             color: $dark_grey_blue;
         }
-
     }
+
+		&__menu {
+            display: none;
+		}
+
+		&__button-on-img {
+            display: block;
+		}
+
+		&__button-off-img {
+            display: none;
+		}
+
 
 }
 
 .header__nav-link--active{
     color: #333D4B;
 }
+
+@media only screen and (max-width: 768px) {
+    // header
+    .header {
+        padding-bottom: 53px;
+
+		&__container {
+
+		}
+
+
+}
+.container {
+    max-width: 768px;
+}
+  }
+
+  @media only screen and (max-width: 720px){
+    .header {
+        margin-bottom: 40px;
+
+		&__container {
+            width: 100%;
+		}
+
+
+        nav{
+            display: none;
+        }
+
+
+
+
+		&__menu {
+            display: block;
+		}
+
+
+}
+
+  }
